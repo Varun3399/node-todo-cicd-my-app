@@ -46,7 +46,7 @@ artifacts:
     - '**/*'
   base-directory: '.'
   discard-paths: no
-  exclude-patterns:
+  exclude:
     - 'node_modules/**/*'
     - '.git/**/*'
     - '.gitignore'
